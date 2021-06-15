@@ -4,7 +4,7 @@
   "description": "bootstrap 5 with sass portfolio",
   "main": "index.js",
   "scripts": {
-  "compile:sass":"sass scss;assets/css"  
+  "compile:sass":"sass scss:assets/css"  
   },
   "repository": {
     "type": "git",
