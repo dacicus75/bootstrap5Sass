@@ -10731,10 +10731,12 @@ textarea.form-control-lg {
 }
 .btn-rounded {
   position: relative;
-  padding: 0.9375rem 4.375rem 0.9375rem 1.25rem;
-  font-weight: 500;
+  padding: 0.8375rem 4.375rem 0.8375rem 1.25rem;
+  font-weight: 700;
   margin: 0;
   border: 0.1rem solid rgba(255, 255, 255, 0.6);
+  background-color: #fff;
+  display: block;
 }
 .btn-rounded span {
   position: absolute;
@@ -10743,8 +10745,20 @@ textarea.form-control-lg {
   height: 2.5rem;
   top: 50%;
   right: 5px;
-  transform: translate(-50%);
+  transform: translateY(-50%);
   border-radius: 50%;
+}
+.btn-rounded span i {
+  color: #fff;
+  font-size: 1rem;
+  line-height: 2.5rem;
+}
+.btn-rounded:hover {
+  background: linear-gradient(to right, rgba(6, 134, 134, 0.95), rgba(13, 202, 240, 0.95));
+  color: #fff;
+}
+.btn-rounded:hover span {
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .menu {
@@ -10754,9 +10768,13 @@ textarea.form-control-lg {
   padding: 0 0.7rem;
 }
 .menu li a {
-  color: #fff !important;
+  color: #fff;
+  padding: 0 0.7rem;
   text-transform: capitalize;
   font-weight: 600;
+}
+.menu li:hover {
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
