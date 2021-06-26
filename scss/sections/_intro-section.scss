@@ -15,11 +15,11 @@
         position: relative;
 
         a {
-            position:absolute
+            // @include absoluteCenter;
             span {
                 i {
                     font-size: 6rem;
-                    color: $black;
+                    color: $secondary;
                 }
             }
         }
