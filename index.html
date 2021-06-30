@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/fontawesome.css">
     <link rel="stylesheet" href="assets/vendors/css/glightbox.min.css">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>        
@@ -67,7 +67,7 @@
           <div class="col-md-6 intros text-end">
             <div class="video-box">
               <img src="images/art/Coding _Monochromatic.png" alt="video illutration" class="img-fluid">
-              <a href="#" class="position-absolute top-50 start-50 translate-middle">
+              <a href="#" class="glightbox position-absolute top-50 start-50 translate-middle">
                 <span>
                   <i class="fas fa-play-circle"></i>
                 </span>
@@ -86,13 +86,16 @@
         <![endif]-->
         <script src="/assets/vendors/js/glightbox.min.js"></script>
         <script type= "text/javascript">
-        const lightbox = GLightbox({
-          'href': 'https://www.youtube.com/watch?v=Ga6RYejo6Hk',
-            'type': 'video',
-            'source': 'youtube', //vimeo, youtube or local
-            'width': 900,
-        });
-        </script>
+          const lightbox = GLightbox({
+            'href': 'https://www.youtube.com/watch?v=iJKCj8uAHz8&t=6623s',
+              'type': 'video',
+              'source': 'youtube', //vimeo, youtube or local
+              'width': 900,
+              'autoplayVideos':'true'
+          });
+          </script>
+          <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+
         <script src="/assets/js/bootstrap.bundle.js"></script>
       </body>
     </body>
