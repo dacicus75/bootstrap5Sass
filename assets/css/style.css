@@ -11091,4 +11091,9 @@ textarea.form-control-lg {
   text-transform: capitalize;
 }
 
+.footer {
+  padding-top: 1rem;
+  background-color: #151414;
+}
+
 /*# sourceMappingURL=style.css.map */
