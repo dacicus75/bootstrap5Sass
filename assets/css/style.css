@@ -11096,4 +11096,18 @@ textarea.form-control-lg {
   background-color: #151414;
 }
 
+.contact-box {
+  position: relative;
+}
+.contact-box__icon {
+  width: 2rem;
+  stroke: #068686;
+  padding-top: 0.5rem;
+}
+@media (min-width: 576px) {
+  .contact-box__icon {
+    width: 4rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

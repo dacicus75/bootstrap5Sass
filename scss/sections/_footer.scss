@@ -5,3 +5,18 @@
     padding-top: 1rem;
     background-color: $footer;
 }
+
+// STYLE THE CONTACT-BOX CONTENT 
+.contact-box {
+    position: relative;
+
+    &__icon {
+       width: 2rem;
+       stroke: $primary; 
+       padding-top: 0.5rem;
+
+       @include media-breakpoint-up(sm) {
+        width: 4rem;
+       }
+    }
+}
